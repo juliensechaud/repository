@@ -15,6 +15,7 @@
 		B1141E54252B3FE5000E39EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1141E52252B3FE5000E39EB /* LaunchScreen.storyboard */; };
 		B1141E5F252B3FE5000E39EB /* RepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1141E5E252B3FE5000E39EB /* RepositoryTests.swift */; };
 		B1141E6A252B3FE6000E39EB /* RepositoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1141E69252B3FE6000E39EB /* RepositoryUITests.swift */; };
+		B1141E8C252B47B7000E39EB /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1141E8B252B47B7000E39EB /* NetworkLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B1141E65252B3FE5000E39EB /* RepositoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RepositoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1141E69252B3FE6000E39EB /* RepositoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryUITests.swift; sourceTree = "<group>"; };
 		B1141E6B252B3FE6000E39EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1141E8B252B47B7000E39EB /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				B1141E47252B3FE4000E39EB /* AppDelegate.swift */,
+				B1141E8B252B47B7000E39EB /* NetworkLayer.swift */,
 				B1141E49252B3FE4000E39EB /* SceneDelegate.swift */,
 				B1141E4B252B3FE4000E39EB /* ViewController.swift */,
 				B1141E4D252B3FE4000E39EB /* Main.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1141E8C252B47B7000E39EB /* NetworkLayer.swift in Sources */,
 				B1141E4C252B3FE4000E39EB /* ViewController.swift in Sources */,
 				B1141E48252B3FE4000E39EB /* AppDelegate.swift in Sources */,
 				B1141E4A252B3FE4000E39EB /* SceneDelegate.swift in Sources */,
